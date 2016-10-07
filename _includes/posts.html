@@ -1,0 +1,10 @@
+{% if paginator.posts.size > 0 %}
+    {% for post in paginator.posts %}
+        {% include posts-card.html %}
+    {% endfor %}
+{% else %}
+    {% assign postOffsetRandom = site.posts.size | random %}
+    {% for post in site.posts offset:postOffsetRandom limit:12 %}
+        {% include posts-card.html %}
+    {% endfor %}
+{% endif %}

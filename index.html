@@ -1,0 +1,30 @@
+---
+layout: default
+app_menu: home
+seo_title: Home
+---
+
+<div class="row">
+    {% include sidebar.html %}
+    <section class="col-xs-12 col-sm-9">
+        <header>
+            <h1>Últimos Posts</h1>
+            <small>Veja abaixo os últimos posts adicionados ao portal.</small>
+        </header>
+        <div class="row posts">
+            {% include posts.html %}
+        </div>
+        <div class="hidden-xs">
+            <div class="banner banner-footer pull-right">
+                {% include google-adsense-728x90.html %}
+            </div>
+        </div>
+    </section>
+</div>
+<div class="row hidden-xs hidden-sm">
+    <section class="col-md-offset-3 col-md-9">
+        <div class="banner banner-middle">
+            {% include google-adsense-728x90.html %}
+        </div>
+    </section>
+</div>

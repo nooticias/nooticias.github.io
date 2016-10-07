@@ -1,0 +1,36 @@
+<div class="col-xs-12 col-sm-6 col-lg-4">
+    {% if
+        forloop.index == 1  or
+        forloop.index == 4  or
+        forloop.index == 7  or
+        forloop.index == 10 or
+        forloop.index == 13 or
+        forloop.index == 16 or
+        forloop.index == 19
+    %}
+    <article class="orange">
+
+    {% elsif
+        forloop.index == 2  or
+        forloop.index == 5  or
+        forloop.index == 8  or
+        forloop.index == 11 or
+        forloop.index == 14 or
+        forloop.index == 17 or
+        forloop.index == 20
+    %}
+    <article class="white">
+    {% else %}
+    <article class="gray">
+    {% endif %}
+        <header>
+            <h1>{{ post.article_title }}</h1>
+            <div id="HOTWordsTxt" name="HOTWordsTxt">
+                <small>{{ post.content }}</small>
+            </div>
+        </header>
+        <div class="text-center">
+            <a class="custom-button" href="{{ post.url | prepend: site.url }}">Visualizar Conteúdo</a>
+        </div>
+    </article>
+</div>
