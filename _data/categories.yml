@@ -2,5 +2,27 @@ business:
   title: Business
 career:
   title: Career
+downloads:
+  title: Downloads
+economy:
+  title: Economy
+education:
+  title: Education
+entertainment:
+  title: Entertainment
+health:
+  title: Health
+lifestyle:
+  title: Lifestyle
+news:
+  title: News
+opinion:
+  title: Opinion
+politics:
+  title: Politics
+science:
+  title: Science
+sports:
+  title: Sports
 technology:
   title: Technology

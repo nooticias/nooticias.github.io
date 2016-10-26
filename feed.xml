@@ -13,8 +13,8 @@ layout: null
             <title>{{ post.article_title | xml_escape }}</title>
             <description>{{ post.article_description | xml_escape }}</description>
             <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-            <link>{{ post.url | prepend: '/' | prepend: site.url }}</link>
-            <guid isPermaLink="true">{{ post.url | prepend: '/' | prepend: site.url }}</guid>
+            <link>{{ post.url | prepend: site.url }}</link>
+            <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
         </item>
         {% endfor %}
     </channel>

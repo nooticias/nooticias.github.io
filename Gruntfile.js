@@ -77,6 +77,9 @@ module.exports = function(grunt) {
 
         exec: {
             jekyll: {
+                options: {
+                    maxBuffer: 5000*1024
+                },
                 command: 'bundle exec jekyll build -V -t'
             }
         },
