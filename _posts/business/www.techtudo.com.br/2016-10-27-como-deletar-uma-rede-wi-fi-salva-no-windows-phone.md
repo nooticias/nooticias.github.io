@@ -1,0 +1,23 @@
+---
+site_title               : "TecTudo"
+site_url                 : "http://www.techtudo.com.br"
+site_locale              : "pt_BR"
+article_slug             : "como-deletar-uma-rede-wi-fi-salva-no-windows-phone"
+article_title            : "Como deletar uma rede Wi-Fi salva no Windows Phone?"
+article_image            : null
+article_url              : "http://www.techtudo.com.br/dicas-e-tutoriais/noticia/2014/10/como-deletar-uma-rede-wi-fi-salva-no-windows-phone.html"
+article_published_at     : null
+article_description      : "O Windows Phone salva os dados da rede Wi-Fi para se reconectar quando ela estiver disponível. Entretanto, pode acontecer da senha ser alterada e a que está salva no celular não funcionar mais. Nesse caso, a única forma de atualizar..."
+article_author_name      : "Helito Bijora"
+article_author_image     : "http://s2.glbimg.com/ZvR3EegYVOI_bpqKykMNTtpl4m4=/30x30/s2.glbimg.com/1kwClNkngtZbaqjrAPb0R4R4c_k=/0x0:140x140/75x75/s.glbimg.com/po/tt/f/original/2011/04/27/helito-bijora.png"
+article_author_biography : null
+article_author_profile   : "http://www.techtudo.com.br/colaborador/helito-bijora.html"
+article_author_facebook  : null
+article_author_twitter   : null
+category                 : ['business']
+tags                     : ['TecTudo']
+permalink                : "/:categories/como-deletar-uma-rede-wi-fi-salva-no-windows-phone/"
+layout                   : post
+---
+
+O Windows Phone salva os dados da rede Wi-Fi para se reconectar quando ela estiver disponível. Entretanto, pode acontecer da senha ser alterada e a que está salva no celular não funcionar mais. Nesse caso, a única forma de atualizar...

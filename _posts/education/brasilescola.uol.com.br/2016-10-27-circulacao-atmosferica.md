@@ -1,0 +1,23 @@
+---
+site_title               : "Brasil Escola"
+site_url                 : "http://brasilescola.uol.com.br"
+site_locale              : "pt_BR"
+article_slug             : "circulacao-atmosferica"
+article_title            : "Circulação Atmosférica"
+article_image            : null
+article_url              : "http://brasilescola.uol.com.br/geografia/circulacao-atmosferica.htm"
+article_published_at     : null
+article_description      : "Entenda como funciona a circulação das massas de ar na atmosfera e quais são as suas consequências."
+article_author_name      : null
+article_author_image     : null
+article_author_biography : null
+article_author_profile   : null
+article_author_facebook  : null
+article_author_twitter   : null
+category                 : ['education']
+tags                     : ['Brasil Escola']
+permalink                : "/:categories/circulacao-atmosferica/"
+layout                   : post
+---
+
+Entenda como funciona a circulação das massas de ar na atmosfera e quais são as suas consequências.

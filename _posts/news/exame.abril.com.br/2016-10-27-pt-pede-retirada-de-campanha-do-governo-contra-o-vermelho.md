@@ -1,0 +1,23 @@
+---
+site_title               : "Exame"
+site_url                 : "http://exame.abril.com.br"
+site_locale              : "pt_BR"
+article_slug             : "pt-pede-retirada-de-campanha-do-governo-contra-o-vermelho"
+article_title            : "PT pede retirada de campanha do governo contra o “vermelho”"
+article_image            : "https://abrilexame.files.wordpress.com/2016/10/size_960_16_9_michel-temer13.jpg?quality=70&strip=all&w=960"
+article_url              : "http://exame.abril.com.br/brasil/pt-pede-retirada-de-campanha-do-governo-contra-o-vermelho/"
+article_published_at     : "2016-10-07T13:14:47-03:00"
+article_description      : "A ação pede a retirada da propaganda, ressarcimento da verba pública e apuração de ocorrência de crime eleitoral..."
+article_author_name      : ""
+article_author_image     : null
+article_author_biography : null
+article_author_profile   : "http://exame.abril.com.br/author/wpvipabril/"
+article_author_facebook  : null
+article_author_twitter   : null
+category                 : ['news']
+tags                     : ['Exame']
+permalink                : "/:categories/pt-pede-retirada-de-campanha-do-governo-contra-o-vermelho/"
+layout                   : post
+---
+
+A ação pede a retirada da propaganda, ressarcimento da verba pública e apuração de ocorrência de crime eleitoral...

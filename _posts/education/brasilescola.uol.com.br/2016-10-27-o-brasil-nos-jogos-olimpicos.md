@@ -1,0 +1,23 @@
+---
+site_title               : "Brasil Escola"
+site_url                 : "http://brasilescola.uol.com.br"
+site_locale              : "pt_BR"
+article_slug             : "o-brasil-nos-jogos-olimpicos"
+article_title            : "O Brasil nos Jogos Olímpicos"
+article_image            : null
+article_url              : "http://brasilescola.uol.com.br/curiosidades/fases-sono.htm"
+article_published_at     : null
+article_description      : "Fases do sono, como o sono é dividido, características das fases do sono, NREM, REM como ocorrem os sonhos, estágios do NREM, ciclo do sono."
+article_author_name      : null
+article_author_image     : null
+article_author_biography : null
+article_author_profile   : null
+article_author_facebook  : null
+article_author_twitter   : null
+category                 : ['education']
+tags                     : ['Brasil Escola']
+permalink                : "/:categories/o-brasil-nos-jogos-olimpicos/"
+layout                   : post
+---
+
+Fases do sono, como o sono é dividido, características das fases do sono, NREM, REM como ocorrem os sonhos, estágios do NREM, ciclo do sono.

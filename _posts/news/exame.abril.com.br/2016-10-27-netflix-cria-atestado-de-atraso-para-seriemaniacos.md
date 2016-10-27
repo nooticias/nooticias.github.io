@@ -1,0 +1,23 @@
+---
+site_title               : "Exame"
+site_url                 : "http://exame.abril.com.br"
+site_locale              : "pt_BR"
+article_slug             : "netflix-cria-atestado-de-atraso-para-seriemaniacos"
+article_title            : "Netflix cria atestado de atraso para “sériemaníacos”"
+article_image            : "https://abrilexame.files.wordpress.com/2016/09/size_960_16_9_netflix3.jpeg?quality=70&strip=all&w=960"
+article_url              : "http://exame.abril.com.br/marketing/netflix-cria-atestado-de-atraso-para-seriemaniacos/"
+article_published_at     : "2015-09-29T19:14:52-03:00"
+article_description      : "Post no Facebook faz uma brincadeira com as maratonas de séries..."
+article_author_name      : ""
+article_author_image     : null
+article_author_biography : null
+article_author_profile   : "http://exame.abril.com.br/author/wpvipabril/"
+article_author_facebook  : null
+article_author_twitter   : null
+category                 : ['news']
+tags                     : ['Exame']
+permalink                : "/:categories/netflix-cria-atestado-de-atraso-para-seriemaniacos/"
+layout                   : post
+---
+
+Post no Facebook faz uma brincadeira com as maratonas de séries...

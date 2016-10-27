@@ -1,0 +1,23 @@
+---
+site_title               : "Tech Crunch"
+site_url                 : "https://techcrunch.com"
+site_locale              : "en_US"
+article_slug             : "the-thing-that-makes-ifa-a-hard-show-to-cover-is-also-its-best-feature"
+article_title            : "The thing that makes IFA a hard show to cover is also its best feature"
+article_image            : "https://tctechcrunch2011.files.wordpress.com/2016/09/p9030773.jpg?w=764&h=400&crop=1"
+article_url              : "https://techcrunch.com/2016/09/04/ifa-wrapup/"
+article_published_at     : "2016-09-04T10:24:06-03:00"
+article_description      : "Today concludes my fourth IFA. Or maybe my fifth. These tech conferences tend to blend together after a while. The first time I attended the show, I..."
+article_author_name      : "Brian Heater"
+article_author_image     : null
+article_author_biography : null
+article_author_profile   : "https://techcrunch.com/author/brian-heater/"
+article_author_facebook  : null
+article_author_twitter   : "https://twitter.com/bheater"
+category                 : ['technology']
+tags                     : ['Tech Crunch']
+permalink                : "/:categories/the-thing-that-makes-ifa-a-hard-show-to-cover-is-also-its-best-feature/"
+layout                   : post
+---
+
+Today concludes my fourth IFA. Or maybe my fifth. These tech conferences tend to blend together after a while. The first time I attended the show, I...

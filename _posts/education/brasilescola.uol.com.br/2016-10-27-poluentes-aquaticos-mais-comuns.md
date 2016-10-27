@@ -1,0 +1,23 @@
+---
+site_title               : "Brasil Escola"
+site_url                 : "http://brasilescola.uol.com.br"
+site_locale              : "pt_BR"
+article_slug             : "poluentes-aquaticos-mais-comuns"
+article_title            : "Poluentes aquáticos mais comuns"
+article_image            : null
+article_url              : "http://brasilescola.uol.com.br/quimica/poluentes-aquaticos-mais-comuns.htm"
+article_published_at     : null
+article_description      : "Conheça os responsáveis pela desordem ambiental."
+article_author_name      : null
+article_author_image     : null
+article_author_biography : null
+article_author_profile   : null
+article_author_facebook  : null
+article_author_twitter   : null
+category                 : ['education']
+tags                     : ['Brasil Escola']
+permalink                : "/:categories/poluentes-aquaticos-mais-comuns/"
+layout                   : post
+---
+
+Conheça os responsáveis pela desordem ambiental.

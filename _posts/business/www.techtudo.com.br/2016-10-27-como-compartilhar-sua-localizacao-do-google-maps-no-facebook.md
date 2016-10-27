@@ -1,0 +1,23 @@
+---
+site_title               : "TecTudo"
+site_url                 : "http://www.techtudo.com.br"
+site_locale              : "pt_BR"
+article_slug             : "como-compartilhar-sua-localizacao-do-google-maps-no-facebook"
+article_title            : "Como compartilhar sua localização do Google Maps no Facebook?"
+article_image            : null
+article_url              : "http://www.techtudo.com.br/dicas-e-tutoriais/noticia/2015/08/como-compartilhar-sua-localizacao-do-google-maps-no-facebook.html"
+article_published_at     : null
+article_description      : "A atualização recente do Google Maps para iOS trouxe mais opções de compartilhamento de localização. Se antes já era possível enviar locais para os amigos no WhatsApp, agora você também pode compartilhar m endereço no Facebook, com quem quiser. O..."
+article_author_name      : "Juliana Pixinine"
+article_author_image     : "http://s2.glbimg.com/6X5RCGC1SBEI0gnrqtIBQstSCLs=/30x30/s2.glbimg.com/cWSG6H75PeswBd1KXxHruGHhOkY=/414x0:1984x1569/140x140/s.glbimg.com/po/tt2/f/original/2014/03/11/juliana.jpg"
+article_author_biography : null
+article_author_profile   : "http://www.techtudo.com.br/colaborador/juliana-pixinine.html"
+article_author_facebook  : null
+article_author_twitter   : null
+category                 : ['business']
+tags                     : ['TecTudo']
+permalink                : "/:categories/como-compartilhar-sua-localizacao-do-google-maps-no-facebook/"
+layout                   : post
+---
+
+A atualização recente do Google Maps para iOS trouxe mais opções de compartilhamento de localização. Se antes já era possível enviar locais para os amigos no WhatsApp, agora você também pode compartilhar m endereço no Facebook, com quem quiser. O...
