@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Nootícias</title>
+    <link>https://www.nooticias.com.br/tags/</link>
+    <description>Recent content in Tags on Nootícias</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Dec 2016 17:12:00 -0200</lastBuildDate>
+    
+	<atom:link href="https://www.nooticias.com.br/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brasil Escola</title>
+      <link>https://www.nooticias.com.br/tags/brasil-escola/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/brasil-escola/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cekurte</title>
+      <link>https://www.nooticias.com.br/tags/cekurte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/cekurte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer World</title>
+      <link>https://www.nooticias.com.br/tags/computer-world/</link>
+      <pubDate>Thu, 15 Dec 2016 17:12:00 -0200</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/computer-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exame</title>
+      <link>https://www.nooticias.com.br/tags/exame/</link>
+      <pubDate>Thu, 15 Dec 2016 20:18:43 -0200</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/exame/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gizmodo</title>
+      <link>https://www.nooticias.com.br/tags/gizmodo/</link>
+      <pubDate>Thu, 15 Dec 2016 16:41:00 -0200</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/gizmodo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac World Brasil</title>
+      <link>https://www.nooticias.com.br/tags/mac-world-brasil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/mac-world-brasil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mashable</title>
+      <link>https://www.nooticias.com.br/tags/mashable/</link>
+      <pubDate>Thu, 15 Dec 2016 22:29:50 -0200</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/mashable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Olhar Digital</title>
+      <link>https://www.nooticias.com.br/tags/olhar-digital/</link>
+      <pubDate>Thu, 15 Dec 2016 20:12:00 -0200</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/olhar-digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startupi</title>
+      <link>https://www.nooticias.com.br/tags/startupi/</link>
+      <pubDate>Thu, 15 Dec 2016 16:00:34 -0200</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/startupi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech Crunch</title>
+      <link>https://www.nooticias.com.br/tags/tech-crunch/</link>
+      <pubDate>Thu, 15 Dec 2016 14:37:38 -0200</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/tech-crunch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tecmundo</title>
+      <link>https://www.nooticias.com.br/tags/tecmundo/</link>
+      <pubDate>Thu, 15 Dec 2016 20:45:57 -0200</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/tecmundo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tectudo</title>
+      <link>https://www.nooticias.com.br/tags/tectudo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/tectudo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zigg Downloads</title>
+      <link>https://www.nooticias.com.br/tags/zigg-downloads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.nooticias.com.br/tags/zigg-downloads/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

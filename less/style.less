@@ -1,0 +1,614 @@
+// Core variables and mixins
+@import "./../bower_components/bootstrap/less/variables.less";
+
+// Variables
+// --------------------------------------------------
+
+@colorPrimary:       #f44336;
+@colorPrimaryLight:  #ffcdd2;
+@colorPrimaryDark:   #d32f2f;
+@colorDivider:       #b6b6b6;
+@colorPrimaryText:   #212121;
+@colorSecondaryText: #727272;
+@colorWhite:         #ffffff;
+@colorIcon:          @colorWhite;
+
+// Custom Variables
+// --------------------------------------------------
+
+@font-family-sans-serif:               "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:                    "Open Sans", Georgia, "Times New Roman", Times, serif;
+
+@gray:                                 @colorSecondaryText;
+
+@input-border-focus:                   @colorSecondaryText;
+@input-color-placeholder:              @colorSecondaryText;
+
+@link-color:                           @colorPrimary;
+@link-hover-color:                     @colorPrimaryDark;
+
+@navbar-inverse-bg:                    @colorPrimary;
+@navbar-inverse-link-color:            @colorWhite;
+@navbar-inverse-border:                @colorPrimaryDark;
+@navbar-inverse-link-active-bg:        @colorPrimaryDark;
+@navbar-inverse-link-hover-bg:         @colorPrimaryDark;
+@navbar-inverse-brand-color:           @colorWhite;
+@navbar-inverse-brand-hover-color:     @colorWhite;
+@navbar-inverse-toggle-hover-bg:       @colorPrimaryDark;
+@navbar-inverse-toggle-icon-bar-bg:    @colorWhite;
+@navbar-inverse-toggle-border-color:   @colorPrimaryDark;
+
+@btn-default-color:                    @colorWhite;
+@btn-default-bg:                       @colorPrimary;
+@btn-default-border:                   @colorPrimaryDark;
+@btn-primary-color:                    @colorWhite;
+@btn-primary-bg:                       @colorSecondaryText;
+@btn-primary-border:                   darken(@btn-primary-bg, 5%);
+
+@pagination-color:                     @colorPrimary;
+@pagination-bg:                        @colorWhite;
+@pagination-border:                    @colorDivider;
+
+@pagination-hover-color:               @colorWhite;
+@pagination-hover-bg:                  @colorPrimary;
+@pagination-hover-border:              @colorDivider;
+
+@pagination-active-color:              @colorWhite;
+@pagination-active-bg:                 @colorPrimary;
+@pagination-active-border:             @colorDivider;
+
+@pagination-disabled-color:            @colorSecondaryText;
+@pagination-disabled-bg:               @colorWhite;
+@pagination-disabled-border:           @colorDivider;
+
+// Mixins
+// --------------------------------------------------
+
+// Utilities
+@import "./../bower_components/bootstrap/less/mixins/hide-text.less";
+@import "./../bower_components/bootstrap/less/mixins/opacity.less";
+@import "./../bower_components/bootstrap/less/mixins/image.less";
+@import "./../bower_components/bootstrap/less/mixins/labels.less";
+@import "./../bower_components/bootstrap/less/mixins/reset-filter.less";
+@import "./../bower_components/bootstrap/less/mixins/resize.less";
+@import "./../bower_components/bootstrap/less/mixins/responsive-visibility.less";
+@import "./../bower_components/bootstrap/less/mixins/size.less";
+@import "./../bower_components/bootstrap/less/mixins/tab-focus.less";
+@import "./../bower_components/bootstrap/less/mixins/text-emphasis.less";
+@import "./../bower_components/bootstrap/less/mixins/text-overflow.less";
+@import "./../bower_components/bootstrap/less/mixins/vendor-prefixes.less";
+
+// Components
+@import "./../bower_components/bootstrap/less/mixins/alerts.less";
+@import "./../bower_components/bootstrap/less/mixins/buttons.less";
+@import "./../bower_components/bootstrap/less/mixins/panels.less";
+@import "./../bower_components/bootstrap/less/mixins/pagination.less";
+@import "./../bower_components/bootstrap/less/mixins/list-group.less";
+@import "./../bower_components/bootstrap/less/mixins/nav-divider.less";
+@import "./../bower_components/bootstrap/less/mixins/forms.less";
+@import "./../bower_components/bootstrap/less/mixins/progress-bar.less";
+@import "./../bower_components/bootstrap/less/mixins/table-row.less";
+
+// Skins
+@import "./../bower_components/bootstrap/less/mixins/background-variant.less";
+@import "./../bower_components/bootstrap/less/mixins/border-radius.less";
+@import "./../bower_components/bootstrap/less/mixins/gradients.less";
+
+// Layout
+@import "./../bower_components/bootstrap/less/mixins/clearfix.less";
+@import "./../bower_components/bootstrap/less/mixins/center-block.less";
+@import "./../bower_components/bootstrap/less/mixins/nav-vertical-align.less";
+@import "./../bower_components/bootstrap/less/mixins/grid-framework.less";
+@import "./../bower_components/bootstrap/less/mixins/grid.less";
+// --------------------------------------------------
+
+// Reset and dependencies
+@import "./../bower_components/bootstrap/less/normalize.less";
+@import "./../bower_components/bootstrap/less/print.less";
+@import "./../bower_components/bootstrap/less/glyphicons.less";
+
+// Core CSS
+@import "./../bower_components/bootstrap/less/scaffolding.less";
+@import "./../bower_components/bootstrap/less/type.less";
+@import "./../bower_components/bootstrap/less/code.less";
+@import "./../bower_components/bootstrap/less/grid.less";
+@import "./../bower_components/bootstrap/less/tables.less";
+@import "./../bower_components/bootstrap/less/forms.less";
+@import "./../bower_components/bootstrap/less/buttons.less";
+
+// Components
+@import "./../bower_components/bootstrap/less/component-animations.less";
+@import "./../bower_components/bootstrap/less/dropdowns.less";
+@import "./../bower_components/bootstrap/less/button-groups.less";
+@import "./../bower_components/bootstrap/less/input-groups.less";
+@import "./../bower_components/bootstrap/less/navs.less";
+@import "./../bower_components/bootstrap/less/navbar.less";
+@import "./../bower_components/bootstrap/less/breadcrumbs.less";
+@import "./../bower_components/bootstrap/less/pagination.less";
+@import "./../bower_components/bootstrap/less/pager.less";
+@import "./../bower_components/bootstrap/less/labels.less";
+@import "./../bower_components/bootstrap/less/badges.less";
+@import "./../bower_components/bootstrap/less/jumbotron.less";
+@import "./../bower_components/bootstrap/less/thumbnails.less";
+@import "./../bower_components/bootstrap/less/alerts.less";
+@import "./../bower_components/bootstrap/less/progress-bars.less";
+@import "./../bower_components/bootstrap/less/media.less";
+@import "./../bower_components/bootstrap/less/list-group.less";
+@import "./../bower_components/bootstrap/less/panels.less";
+@import "./../bower_components/bootstrap/less/responsive-embed.less";
+@import "./../bower_components/bootstrap/less/wells.less";
+@import "./../bower_components/bootstrap/less/close.less";
+
+// Utility classes
+@import "./../bower_components/bootstrap/less/utilities.less";
+@import "./../bower_components/bootstrap/less/responsive-utilities.less";
+
+// Rewrite Twitter Bootstrap
+// --------------------------------------------------
+
+body {
+    background-color: transparent;
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    background-image: url("../images/background.png");
+    min-width: @screen-xs-min;
+    .navbar {
+        .navbar-header {
+            .navbar-brand {
+                font-weight: 600;
+            }
+        }
+    }
+    .btn {
+        border-radius: 0px;
+        font-weight: 300;
+    }
+}
+
+// Media Queries
+// --------------------------------------------------
+
+@media screen and (max-width: @screen-xs-max) {
+    .navbar {
+        #navbar {
+            .navbar-nav {
+                &.pull-right {
+                    display: none;
+                }
+            }
+        }
+    }
+    .content-link {
+        .share {
+            .share-label {
+                margin: 0px 9px !important;
+            }
+        }
+    }
+    article {
+        @articleWidth: 100%;
+        width: @articleWidth !important;
+        a {
+            width: 200px !important;
+            float: none !important;
+            display: inline-block !important;
+        }
+    }
+}
+
+@media screen and (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    #search.search-size-large {
+        width: 432px !important;
+    }
+    article {
+        @articleWidth: 258px;
+        width: @articleWidth !important;
+        a {
+            width: (@articleWidth - 34) !important;
+        }
+    }
+}
+
+@media screen and (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    #search.search-size-large {
+        width: 652px !important;
+    }
+    article {
+        @articleWidth: 340px;
+        width: @articleWidth !important;
+        a {
+            width: (@articleWidth - 34) !important;
+        }
+    }
+}
+
+@media screen and (min-width: @screen-lg-min) {
+    #search.search-size-large {
+        width: 852px !important;
+    }
+}
+
+// Style
+// --------------------------------------------------
+
+body {
+
+    #contact {
+        margin-top: 60px;
+        form {
+            .form-field {
+                margin-bottom: 14px;
+                input, textarea {
+                    color: @colorDivider;
+                    font-weight: 300;
+                    font-size: 17px;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+
+    .navbar {
+        .nav {
+            .cekurte {
+                font-weight: 300;
+                .custom-icon-new-window {
+                    position: relative;
+                    left: 5px;
+                    top: 3px;
+                }
+            }
+        }
+    }
+
+    .content {
+        margin-top: 75px;
+    }
+
+    .row {
+        &.posts {
+            margin-right: 0px;
+            nav {
+                margin-right: -15px;
+            }
+        }
+    }
+
+    .banner {
+        &.banner-top {
+            margin-bottom: 25px;
+        }
+        &.banner-left {
+            margin-top: 62px;
+        }
+        &.banner-middle {
+            margin-top: 5px;
+            margin-bottom: 25px;
+        }
+        &.banner-footer {
+            margin-top: 5px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .custom-button {
+        background-color: @colorPrimary;
+        color: @colorWhite;
+        float: left;
+        padding: 5px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        font-size: 14px;
+        font-weight: 300;
+        &:hover, &:active, &:link {
+            background-color: @colorSecondaryText;
+            text-decoration: none;
+            color: @colorWhite;
+        }
+        &:visited {
+            color: @colorWhite;
+        }
+    }
+
+    .custom-icon {
+        background-image: url("../images/icons.png");
+        background-color: transparent;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: relative;
+        color: transparent;
+        &.custom-icon-new-window {
+            height: 15px;
+            width: 16px;
+            background-position: -164px -2px;
+        }
+        &.custom-icon-search {
+            height: 16px;
+            width: 16px;
+            background-position: -148px 0px;
+        }
+        &.custom-icon-user {
+            height: 15px;
+            width: 13px;
+            background-position: -117px 0px;
+        }
+        &.custom-icon-email {
+            height: 16px;
+            width: 16px;
+            background-position: -131px 0px;
+        }
+        &.custom-icon-social-twitter {
+            height: 15px;
+            width: 16px;
+            background-position: -1px 0px;
+        }
+        &.custom-icon-social-facebook {
+            height: 15px;
+            width: 14px;
+            background-position: -18px 0px;
+        }
+        &.custom-icon-social-googleplus {
+            height: 15px;
+            width: 15px;
+            background-position: -34px 0px;
+        }
+        &.custom-icon-social-github {
+            height: 15px;
+            width: 14px;
+            background-position: -51px 0px;
+        }
+        &.custom-icon-rss {
+            height: 15px;
+            width: 14px;
+            background-position: -68px 0px;
+        }
+        &.custom-icon-skype {
+            height: 15px;
+            width: 14px;
+            background-position: -85px 0px;
+        }
+        &.custom-icon-social-linkedin {
+            height: 15px;
+            width: 15px;
+            background-position: -101px 0px;
+        }
+
+        &.custom-icon-white {
+            &.custom-icon-new-window {
+                background-position: -164px -18px;
+            }
+            &.custom-icon-search {
+                background-position: -148px -16px;
+            }
+            &.custom-icon-user {
+                background-position: -117px -16px;
+            }
+            &.custom-icon-email {
+                background-position: -131px -16px;
+            }
+            &.custom-icon-social-twitter {
+                background-position: -1px -15px !important;
+            }
+            &.custom-icon-social-facebook {
+                background-position: -18px -15px !important;
+            }
+            &.custom-icon-social-googleplus {
+                background-position: -34px -15px !important;
+            }
+            &.custom-icon-social-github {
+                background-position: -51px -15px !important;
+            }
+            &.custom-icon-rss {
+                background-position: -68px -15px !important;
+            }
+            &.custom-icon-skype {
+                background-position: -85px -15px !important;
+            }
+            &.custom-icon-social-linkedin {
+                background-position: -101px -15px !important;
+            }
+        }
+    }
+
+    .content-link {
+        margin-top: 1px;
+        .share {
+            display: inline-block;
+            .share-label {
+                margin-left: 30px;
+                margin-right: 12px;
+                font-weight: 300;
+            }
+            a {
+                padding: 5px 9px 0px 9px !important;
+                margin-left: 2px;
+            }
+        }
+    }
+
+    .content-info {
+        margin: 25px 0px;
+        p {
+            font-weight: 300;
+            font-style: italic;
+        }
+    }
+
+    aside {
+        section {
+            margin-top: 25px;
+            ul {
+                li {
+                    overflow: hidden;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    article {
+        height: 200px;
+        width: 270px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        padding: 0px 12px;
+        .custom-button {
+            font-size: 15px;
+            font-weight: 600;
+            height: 30px;
+            width: 236px;
+            position: relative;
+            margin-left: 5px;
+            text-align: center;
+        }
+        header {
+            h1 {
+                font-size: 16px;
+                font-weight: 400;
+                padding-top: 20px;
+                margin-bottom: 27px;
+                text-align: center;
+                height: 60px;
+                overflow: hidden;
+            }
+            small {
+                font-size: 12px;
+                font-weight: 300;
+                font-style: italic;
+                margin-top: 10px;
+                margin-bottom: 18px;
+                display: inline-block;
+                text-align: center;
+                height: 60px;
+                overflow: hidden;
+            }
+        }
+        &.orange {
+            background-color: @colorPrimary;
+            h1 {
+                color: @colorWhite;
+            }
+            small {
+                color: @colorWhite;
+            }
+            .custom-button {
+                background-color: @colorWhite;
+                color: @colorPrimary;
+                &:hover, &:active, &:link {
+                    color: @colorSecondaryText;
+                }
+            }
+        }
+        &.white {
+            background-color: @colorWhite;
+            h1 {
+                color: @colorPrimary;
+            }
+            small {
+                color: @colorPrimary;
+            }
+            .custom-button {
+                background-color: @colorWhite;
+                color: @colorPrimary;
+                border: 1px solid @colorPrimary;
+                &:hover, &:active, &:link {
+                    color: @colorSecondaryText;
+                    border-color: @colorSecondaryText;
+                }
+            }
+        }
+        &.gray {
+            background-color: @colorSecondaryText;
+            margin-right: 0px;
+            h1 {
+                color: @colorWhite;
+            }
+            small {
+                color: @colorWhite;
+            }
+            .custom-button {
+                background-color: @colorWhite;
+                color: @colorSecondaryText;
+                &:hover, &:active, &:link {
+                    color: @colorPrimary;
+                }
+            }
+        }
+    }
+
+    h1 {
+        &.error404 {
+            border-bottom: 1px dashed #CCCCCC;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+    }
+
+    section {
+        header {
+            h1 {
+                font-size: 18px;
+                font-weight: 600;
+                color: @colorPrimaryText;
+                margin-top: 0px;
+                margin-bottom: 4px;
+                small, span {
+                    color: @colorPrimary;
+                }
+            }
+            small {
+                font-size: 14px;
+                font-weight: 300;
+                color: @colorPrimaryText;
+                font-style: italic;
+                margin-bottom: 18px;
+                display: inline-block;
+                &.page_number {
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+
+    p {
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        margin-bottom: 25px;
+        .divider {
+            height: 1px;
+            margin: 25px 0px;
+            background-color: @colorDivider;
+        }
+        .social {
+            a {
+                position: relative;
+                top: 3px;
+                margin-right: 5px;
+                &:hover {
+                    opacity: 0.75;
+                }
+            }
+        }
+        .links {
+            a, span {
+                font-size: 14px;
+                font-weight: 300;
+                color: @colorSecondaryText;
+            }
+            a:hover {
+                text-decoration: none;
+                color: @colorPrimary;
+            }
+        }
+        .cekurte {
+            a {
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
