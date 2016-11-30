@@ -1,0 +1,33 @@
+language: ruby
+rvm:
+  - 2.3.1
+
+sudo: false
+
+cache: bundler
+
+before_install:
+  - gem install jekyll
+  - gem install bundler
+
+install:
+  - bundle install
+
+before_script:
+  - npm install -g grunt-cli
+  - npm install -g bower
+  - npm install
+  - bower install
+  - bundle install
+  - git clone -b gh-pages https://github.com/nooticias/nooticias.github.io.git _site/
+
+script:
+  - grunt production
+
+after_script:
+  - git config user.name "João Paulo Cercal"
+  - git config user.email "jpcercal@gmail.com"
+  - cd _site/
+  - git add . --all
+  - git commit --amend --message "Deploy"
+  - git push --force --quiet "https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/nooticias/nooticias.github.io.git" gh-pages
