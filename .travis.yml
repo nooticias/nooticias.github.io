@@ -22,7 +22,7 @@ before_script:
   - git clone -b gh-pages https://github.com/nooticias/nooticias.github.io.git _site/
 
 script:
-  - grunt production
+  - travis_wait 1440 grunt production
 
 after_script:
   - git config user.name "João Paulo Cercal"
