@@ -80,7 +80,7 @@ module.exports = function(grunt) {
                 options: {
                     maxBuffer: 5000*1024
                 },
-                command: 'bundle exec jekyll build -V -t -q'
+                command: 'bundle exec jekyll build --trace --verbose --incremental'
             }
         },
 

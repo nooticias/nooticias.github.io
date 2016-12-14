@@ -19,7 +19,7 @@ before_script:
   - npm install
   - bower install
   - bundle install
-  - git clone -b gh-pages https://github.com/nooticias/nooticias.github.io.git _site/
+  - git clone -b master https://github.com/nooticias/nooticias.github.io.git _site/
 
 script:
   - travis_wait 1440 grunt production
@@ -30,4 +30,4 @@ after_script:
   - cd _site/
   - git add . --all
   - git commit --amend --message "Deploy"
-  - git push --force --quiet "https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/nooticias/nooticias.github.io.git" gh-pages
+  - git push --force --quiet "https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/nooticias/nooticias.github.io.git" master
