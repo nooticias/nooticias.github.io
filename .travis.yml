@@ -25,9 +25,9 @@ script:
   - travis_wait 1440 grunt production
 
 after_script:
-  - git config user.name "João Paulo Cercal"
-  - git config user.email "jpcercal@gmail.com"
+  - git config --global user.name "${GIT_DISPLAYNAME}"
+  - git config --global user.email "${GIT_EMAIL}"
   - cd _site/
   - git add . --all
-  - git commit --amend --message "Deploy"
+  - git commit --amend --message "${GIT_COMMIT_MESSAGE}"
   - git push --force --quiet "https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/nooticias/nooticias.github.io.git" master
