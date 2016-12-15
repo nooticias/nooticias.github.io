@@ -12,7 +12,7 @@ layout: default
                 {% assign category_title = site.data.categories[category_slug].title %}
                 <small>Este post está presente na seguinte categoria: <a href="{{ category_slug | prepend: '/' | prepend: site.url }}">{{ category_title }}</a>.</small>
             </header>
-            <div id="HOTWordsTxt" name="HOTWordsTxt">
+            <div class="post-content">
                 <p>{{ page.content }}</p>
             </div>
             <div class="hidden-xs hidden-sm">
