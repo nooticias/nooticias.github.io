@@ -89,7 +89,7 @@ module.exports = function(grunt) {
                 JEKYLL_SITE_URL: 'http://127.0.0.1:8080'
             },
             production: {
-                JEKYLL_SITE_URL: 'http://www.nooticias.com.br'
+                JEKYLL_SITE_URL: 'https://www.nooticias.com.br'
             }
         },
 
