@@ -1,0 +1,23 @@
+---
+site_title               : "Gizmodo"
+site_url                 : "http://gizmodo.uol.com.br"
+site_locale              : "pt_BR"
+article_slug             : "aparentemente-o-google-desistiu-de-fabricar-seu-proprio-carro-autonomo"
+article_title            : "Aparentemente, o Google desistiu de fabricar seu próprio carro autônomo"
+article_image            : "http://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2016/10/asus-zenfone-3-hands-on-5.jpg"
+article_url              : "http://gizmodo.uol.com.br/asus/"
+article_published_at     : "2016-12-13T10:07:00-02:00"
+article_description      : "A versão final do Oculus Rift é um produto de consumo finalizado que entrega uma experiência fluida, para ser aproveitada não só pelos geeks."
+article_author_name      : "Alessandro Junior"
+article_author_image     : null
+article_author_biography : null
+article_author_profile   : "http://gizmodo.uol.com.br/author/alessandro-junior/"
+article_author_facebook  : null
+article_author_twitter   : null
+category                 : ['technology']
+tags                     : ['Gizmodo']
+permalink                : "/:categories/aparentemente-o-google-desistiu-de-fabricar-seu-proprio-carro-autonomo/"
+layout                   : post
+---
+
+A versão final do Oculus Rift é um produto de consumo finalizado que entrega uma experiência fluida, para ser aproveitada não só pelos geeks.

@@ -8,7 +8,7 @@ article_image            : "https://abrilexame.files.wordpress.com/2016/10/size_
 article_url              : "http://exame.abril.com.br/seu-dinheiro/os-melhores-seguros-para-proteger-seu-carro-segundo-a-proteste/"
 article_published_at     : "2016-12-15T12:11:30-02:00"
 article_description      : "Pesquisa da Proteste mostra os seguros com o melhor custo benefício para quatro perfis de segurados e quatro modelos de carros em cinco capitais..."
-article_author_name      : ""
+article_author_name      : "Reuters"
 article_author_image     : null
 article_author_biography : null
 article_author_profile   : "http://exame.abril.com.br/autor/marliaalmeida/"
