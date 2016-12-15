@@ -2,12 +2,12 @@
 site_title               : "Brasil Escola"
 site_url                 : "http://brasilescola.uol.com.br"
 site_locale              : "pt_BR"
-article_slug             : "mecanismo-de-feedback"
-article_title            : "Mecanismo de Feedback"
+article_slug             : "movimento-punk"
+article_title            : "Movimento Punk"
 article_image            : null
-article_url              : "http://brasilescola.uol.com.br/biologia/mecanismo-feedback.htm"
+article_url              : "http://brasilescola.uol.com.br/historiag/movimento-punk.htm"
 article_published_at     : null
-article_description      : "Entenda o que é o mecanismo de feedback e aprenda a diferença entre feedback positivo e negativo."
+article_description      : "Da origem sarcástica ao uso na grande mídia."
 article_author_name      : null
 article_author_image     : null
 article_author_biography : null
@@ -16,8 +16,8 @@ article_author_facebook  : null
 article_author_twitter   : null
 category                 : ['education']
 tags                     : ['Brasil Escola']
-permalink                : "/:categories/mecanismo-de-feedback/"
+permalink                : "/:categories/movimento-punk/"
 layout                   : post
 ---
 
-Entenda o que é o mecanismo de feedback e aprenda a diferença entre feedback positivo e negativo.
+Da origem sarcástica ao uso na grande mídia.
