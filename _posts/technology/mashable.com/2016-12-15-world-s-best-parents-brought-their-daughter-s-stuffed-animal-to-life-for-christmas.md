@@ -9,7 +9,7 @@ article_url              : "http://mashable.com/2016/12/15/girl-puppy-christmas-
 article_published_at     : "2016-12-15T15:56:24-02:00"
 article_description      : "More than anything, this little girl wanted her stuffed animal, 'Luna' to transform into a real dog."
 article_author_name      : null
-article_author_image     : null
+article_author_image     : "http://i.amz.mshcdn.com/1oTmn-1ZUDQgVLImc4_uwvEqpxw=/90x90/2016%2F09%2F19%2F68%2Funtitled121_720.8056c.jpg"
 article_author_biography : null
 article_author_profile   : null
 article_author_facebook  : null

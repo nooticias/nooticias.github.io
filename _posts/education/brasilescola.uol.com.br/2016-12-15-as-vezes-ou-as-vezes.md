@@ -5,9 +5,9 @@ site_locale              : "pt_BR"
 article_slug             : "as-vezes-ou-as-vezes"
 article_title            : "As vezes ou às vezes?"
 article_image            : null
-article_url              : "http://brasilescola.uol.com.br/redacao/redacao-concursos-vestibulares.htm"
+article_url              : "http://brasilescola.uol.com.br/gramatica/as-vezes-ou-as-vezes.htm"
 article_published_at     : null
-article_description      : "A redação em concursos e vestibulares: Clique e tenha acesso a diversos artigos que vão ajudá-lo(a) a escrever mais e melhor!"
+article_description      : "Com este artigo, você vai sanar suas dúvidas a respeito das expressões “as vezes” e “às vezes”. Vamos lá?"
 article_author_name      : null
 article_author_image     : null
 article_author_biography : null
@@ -20,4 +20,4 @@ permalink                : "/:categories/as-vezes-ou-as-vezes/"
 layout                   : post
 ---
 
-A redação em concursos e vestibulares: Clique e tenha acesso a diversos artigos que vão ajudá-lo(a) a escrever mais e melhor!
+Com este artigo, você vai sanar suas dúvidas a respeito das expressões “as vezes” e “às vezes”. Vamos lá?

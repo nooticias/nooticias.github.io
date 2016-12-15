@@ -8,10 +8,10 @@ article_image            : "https://imgnzn-a.akamaized.net//2016/08/12/121525356
 article_url              : "http://www.tecmundo.com.br/android-marshmallow/108377-android-saiba-fazer-livrar-erro-sobreposicao-tela.htm"
 article_published_at     : "2016-08-12T15:27:16-03:00"
 article_description      : "Embora o Android 6.0 seja a versão mais estável e de melhor desempenho na história do SO — o 7.0 Nougat está a caminho, mas, por enquanto, não foi liberado para o usuário final. De qualquer forma, por mais caprichado que seja, a edição Marshmallow do sistema possui alguns bugs que podem ser bastante incômodos para algumas pessoas. Desta vez, vamos falar de um erro que costuma ocorrer sobretudo em smartphones da Samsung."
-article_author_name      : "Marcelo Rodrigues"
+article_author_name      : "Rafael Farinaccio"
 article_author_image     : null
 article_author_biography : null
-article_author_profile   : "https://www.tecmundo.com.br/autor/394-marcelo-rodrigues/"
+article_author_profile   : "https://www.tecmundo.com.br/autor/445-rafael-farinaccio/"
 article_author_facebook  : null
 article_author_twitter   : null
 category                 : ['technology']

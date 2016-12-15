@@ -9,7 +9,7 @@ article_url              : "http://mashable.com/2016/12/15/turbotax-gig-economy/
 article_published_at     : "2016-12-15T16:57:01-02:00"
 article_description      : "The gig economy is only growing, and TurboTax knows it."
 article_author_name      : null
-article_author_image     : null
+article_author_image     : "http://i.amz.mshcdn.com/u9fDiwNdPtZHHsu9eZDkdG4iV1c=/90x90/2016%2F09%2F30%2Fb2%2Fhighres.c6bac.jpg"
 article_author_biography : null
 article_author_profile   : null
 article_author_facebook  : null
