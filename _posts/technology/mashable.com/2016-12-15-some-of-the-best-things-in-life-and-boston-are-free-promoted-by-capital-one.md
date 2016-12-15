@@ -9,7 +9,7 @@ article_url              : "http://mashable.com/2016/12/15/boston-free-things/"
 article_published_at     : "2016-12-15T18:11:49-02:00"
 article_description      : "From buskers, to free samples, to the public library and beyond, Boston offers some of the best cultural and entertaining activities in the country at a very reasonable price – free!"
 article_author_name      : null
-article_author_image     : null
+article_author_image     : "http://i.amz.mshcdn.com/-Ayo7wGlEFpNKnjSIsaLHczZ3nQ=/90x90/2016%2F06%2F29%2F8a%2Fhttpsd2mhye01h4nj2n.cloudfront.netmediaZgkyMDEzLzA5.39c93.jpg"
 article_author_biography : null
 article_author_profile   : null
 article_author_facebook  : null

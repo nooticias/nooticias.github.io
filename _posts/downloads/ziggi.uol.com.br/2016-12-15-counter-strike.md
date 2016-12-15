@@ -4,10 +4,10 @@ site_url                 : "http://ziggi.uol.com.br/"
 site_locale              : "pt_BR"
 article_slug             : "counter-strike"
 article_title            : "Counter-Strike"
-article_image            : "http://static.ziggi.uol.com.br/imagens_programas/icone_3051.gif"
-article_url              : "http://ziggi.uol.com.br/downloads/counter-strike"
+article_image            : "http://static.ziggi.uol.com.br/imagens_programas/icone_75ef4a06c7e42c9492d570ac8f317076_counter_strike_tradutor_br.gif"
+article_url              : "http://ziggi.uol.com.br/downloads/counter-strike-tradutor-br"
 article_published_at     : null
-article_description      : "Counter-Strike download Windows - Baixe agora Counter-Strike - o mais famoso game de tiro online em primeira pessoa totalmente de graça..."
+article_description      : "Counter-Strike Tradução BR download Windows - Deixe seu jogo Counter-Strike totalmente em português com esse pacote de tradução instalado em seu computador."
 article_author_name      : "Jean Carlos"
 article_author_image     : null
 article_author_biography : null
@@ -20,4 +20,4 @@ permalink                : "/:categories/counter-strike/"
 layout                   : post
 ---
 
-Counter-Strike download Windows - Baixe agora Counter-Strike - o mais famoso game de tiro online em primeira pessoa totalmente de graça...
+Counter-Strike Tradução BR download Windows - Deixe seu jogo Counter-Strike totalmente em português com esse pacote de tradução instalado em seu computador.

@@ -9,7 +9,7 @@ article_url              : "http://startupi.com.br/2016/11/3-licoes-do-dropbox-p
 article_published_at     : "2016-11-08T16:00:03-02:00"
 article_description      : "Não é fácil criar um produto ou serviço que conquiste consumidores com diferentes características. Muitas vezes, é preciso fazer ajustes na sua ideia..."
 article_author_name      : "Canal Exclusivo Exame.com"
-article_author_image     : "http://startupi.com.br/wp-content/uploads/2016/11/startupi_bola-1-170x170.jpg"
+article_author_image     : "http://startupi.com.br/wp-content/uploads/2015/05/CANAL-EXCLUSIVO-EMPREENDEDORES_avatar_1430778971.JPG"
 article_author_biography : ""
 article_author_profile   : "http://startupi.com.br/canal/canal-exclusivo-exame-com/"
 article_author_facebook  : null

@@ -9,7 +9,7 @@ article_url              : "http://startupi.com.br/2016/11/santander-inova-em-ca
 article_published_at     : "2016-11-24T15:13:56-02:00"
 article_description      : "O Santander acaba de anunciar dois novos cartões, o Play, direcionado a jovens, e o 1/2/3, para pessoas que tenham renda mínima d..."
 article_author_name      : "Canal Exclusivo Exame.com"
-article_author_image     : "http://startupi.com.br/wp-content/uploads/2016/03/Marystela-Barbosa_avatar_1456861248-170x170.jpg"
+article_author_image     : "http://startupi.com.br/wp-content/uploads/2015/03/Fernanda-Santos_avatar_1426478399-170x170.jpg"
 article_author_biography : ""
 article_author_profile   : "http://startupi.com.br/canal/canal-exclusivo-exame-com/"
 article_author_facebook  : null

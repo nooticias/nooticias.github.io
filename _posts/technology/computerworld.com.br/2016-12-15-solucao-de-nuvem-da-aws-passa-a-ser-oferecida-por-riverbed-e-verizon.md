@@ -1,0 +1,23 @@
+---
+site_title               : "Computer World"
+site_url                 : "http://computerworld.com.br"
+site_locale              : "pt_BR"
+article_slug             : "solucao-de-nuvem-da-aws-passa-a-ser-oferecida-por-riverbed-e-verizon"
+article_title            : "Solução de nuvem da AWS passa a ser oferecida por Riverbed e Verizon"
+article_image            : "http://computerworld.com.br/sites/beta.computerworld.com.br/files/news_articles/cloud_0.jpg"
+article_url              : "http://computerworld.com.br/solucao-de-nuvem-da-aws-passa-ser-oferecida-por-riverbed-e-verizon"
+article_published_at     : "2016-12-05T10:08:00-02:00"
+article_description      : "Empresas se unem para oferecer solução de cloud para auxiliar os clientes em comum na entrega de aplicações aos usuários finais..."
+article_author_name      : "Da Redaçã"
+article_author_image     : null
+article_author_biography : null
+article_author_profile   : "http://computerworld.com.br/autor/da-redacao"
+article_author_facebook  : null
+article_author_twitter   : null
+category                 : ['technology']
+tags                     : ['Computer World']
+permalink                : "/:categories/solucao-de-nuvem-da-aws-passa-a-ser-oferecida-por-riverbed-e-verizon/"
+layout                   : post
+---
+
+Empresas se unem para oferecer solução de cloud para auxiliar os clientes em comum na entrega de aplicações aos usuários finais...

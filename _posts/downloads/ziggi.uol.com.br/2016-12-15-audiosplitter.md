@@ -4,10 +4,10 @@ site_url                 : "http://ziggi.uol.com.br/"
 site_locale              : "pt_BR"
 article_slug             : "audiosplitter"
 article_title            : "Audiosplitter"
-article_image            : "http://static.ziggi.uol.com.br/imagens_programas/icone_lista_10181.gif"
-article_url              : "http://ziggi.uol.com.br/downloads/audio-hijack-pro-mac/mac"
+article_image            : "http://static.ziggi.uol.com.br/imagens_programas/icone_98187fdfe015649e0b98f75d49d31dc3_audiosplitter.jpg"
+article_url              : "http://ziggi.uol.com.br/downloads/audiosplitter/iphone"
 article_published_at     : null
-article_description      : "Audio Hijack Pro Mac download Mac - Grave os sons de qualquer parte do seu Mac em alta qualidade."
+article_description      : "Use o Audiosplitter no iPhone e escute suas músicas favoritas em qualquer lugar..."
 article_author_name      : "Filipi Cloud"
 article_author_image     : null
 article_author_biography : null
@@ -20,4 +20,4 @@ permalink                : "/:categories/audiosplitter/"
 layout                   : post
 ---
 
-Audio Hijack Pro Mac download Mac - Grave os sons de qualquer parte do seu Mac em alta qualidade.
+Use o Audiosplitter no iPhone e escute suas músicas favoritas em qualquer lugar...
