@@ -29,6 +29,6 @@ after_script:
   - git config --global user.email "${GIT_EMAIL}"
   - cd _site/
   - git add . --all
-  - git rm *.log
+  - git reset HEAD *.log
   - git commit --amend --message "${GIT_COMMIT_MESSAGE}"
   - git push --force --quiet "https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/nooticias/nooticias.github.io.git" master
