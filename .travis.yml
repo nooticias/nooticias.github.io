@@ -27,6 +27,9 @@ script:
 after_script:
   - git config --global user.name "${GIT_DISPLAYNAME}"
   - git config --global user.email "${GIT_EMAIL}"
+  - git add .jekyll-metadata
+  - git commit -m "Updated the Jekyll metadata file."
+  - git push --quiet "https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/nooticias/nooticias.github.io.git" develop
   - cd _site/
   - git add . --all
   - git commit --amend --message "${GIT_COMMIT_MESSAGE}"
