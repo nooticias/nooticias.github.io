@@ -4,10 +4,10 @@ site_url                 : "http://ziggi.uol.com.br/"
 site_locale              : "pt_BR"
 article_slug             : "kboing-playlists"
 article_title            : "Kboing Playlists"
-article_image            : "http://static.ziggi.uol.com.br/imagens_programas/icone_9a286fe71443e7114f120a5633dd2673_whatsapp.png"
-article_url              : "http://ziggi.uol.com.br/downloads/whatsapp/apk"
+article_image            : "http://static.ziggi.uol.com.br/imagens_programas/icone_75e0fb5d82155d27accfcf319ab57fb4_kboing_playlists.jpg"
+article_url              : "http://ziggi.uol.com.br/downloads/kboing-playlists/android"
 article_published_at     : null
-article_description      : "WhatsApp APK - um modo alternativo para instalar o WhatsApp para Android."
+article_description      : "Kboing Playlists download Android - Ouça músicas de maneira fácil e objetiva com esse aplicativo."
 article_author_name      : "Sybéllyus"
 article_author_image     : null
 article_author_biography : null
@@ -20,4 +20,4 @@ permalink                : "/:categories/kboing-playlists/"
 layout                   : post
 ---
 
-WhatsApp APK - um modo alternativo para instalar o WhatsApp para Android.
+Kboing Playlists download Android - Ouça músicas de maneira fácil e objetiva com esse aplicativo.

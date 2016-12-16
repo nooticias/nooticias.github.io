@@ -4,7 +4,11 @@ rvm:
 
 sudo: false
 
-cache: bundler
+cache:
+  bundler: true
+  directories:
+    - node_modules
+    - bower_components
 
 before_install:
   - gem install jekyll
@@ -20,6 +24,7 @@ before_script:
   - bower install
   - bundle install
   - git clone -b master https://github.com/nooticias/nooticias.github.io.git _site/
+  - cp _site/.jekyll-metadata .
 
 script:
   - travis_wait 1440 grunt production
@@ -27,10 +32,9 @@ script:
 after_script:
   - git config --global user.name "${GIT_DISPLAYNAME}"
   - git config --global user.email "${GIT_EMAIL}"
-  - git add .jekyll-metadata
-  - git commit -m "Updated the Jekyll metadata file."
-  - git push --quiet "https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/nooticias/nooticias.github.io.git" develop
   - cd _site/
+  - mv ../.jekyll-metadata .
   - git add . --all
+  - git reset HEAD *.log
   - git commit --amend --message "${GIT_COMMIT_MESSAGE}"
   - git push --force --quiet "https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/nooticias/nooticias.github.io.git" master

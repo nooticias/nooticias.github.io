@@ -5,9 +5,9 @@ site_locale              : "pt_BR"
 article_slug             : "proposta-de-intervencao-do-enem"
 article_title            : "Proposta de intervenção do Enem"
 article_image            : null
-article_url              : "http://brasilescola.uol.com.br/redacao/proposta-intervencao-enem.htm"
+article_url              : "http://brasilescola.uol.com.br/matematica/macetes-dicas-matematica-para-enem.htm"
 article_published_at     : null
-article_description      : "Neste artigo você vai saber o que fazer para obter a nota máxima na proposta de intervenção da prova de Redação do ENEM. Vamos lá?"
+article_description      : "Confira algumas dicas e macetes que agilizam muito os cálculos mais frequentes nas provas de Matemática do Enem!"
 article_author_name      : null
 article_author_image     : null
 article_author_biography : null
@@ -20,4 +20,4 @@ permalink                : "/:categories/proposta-de-intervencao-do-enem/"
 layout                   : post
 ---
 
-Neste artigo você vai saber o que fazer para obter a nota máxima na proposta de intervenção da prova de Redação do ENEM. Vamos lá?
+Confira algumas dicas e macetes que agilizam muito os cálculos mais frequentes nas provas de Matemática do Enem!

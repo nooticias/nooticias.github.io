@@ -5,9 +5,9 @@ site_locale              : "pt_BR"
 article_slug             : "mecanismo-de-feedback"
 article_title            : "Mecanismo de Feedback"
 article_image            : null
-article_url              : "http://brasilescola.uol.com.br/quimica/quimica-inorganica.htm"
+article_url              : "http://brasilescola.uol.com.br/biologia/mecanismo-feedback.htm"
 article_published_at     : null
-article_description      : "Clique para conhecer um espaço especificamente criado para abordar o conteúdo visto em Química Inorgânica!"
+article_description      : "Entenda o que é o mecanismo de feedback e aprenda a diferença entre feedback positivo e negativo."
 article_author_name      : null
 article_author_image     : null
 article_author_biography : null
@@ -20,4 +20,4 @@ permalink                : "/:categories/mecanismo-de-feedback/"
 layout                   : post
 ---
 
-Clique para conhecer um espaço especificamente criado para abordar o conteúdo visto em Química Inorgânica!
+Entenda o que é o mecanismo de feedback e aprenda a diferença entre feedback positivo e negativo.
