@@ -8,7 +8,7 @@ article_image            : "https://abrilexame.files.wordpress.com/2016/10/size_
 article_url              : "http://exame.abril.com.br/economia/ministro-da-fazenda-diz-que-pec-do-teto-e-uma-medida-historica/"
 article_published_at     : "2016-12-13T18:37:29-02:00"
 article_description      : "Meirelles disse que a aprovação dá condições para o governo discutir medidas para o bom equilíbrio orçamentário..."
-article_author_name      : "Agência Brasil"
+article_author_name      : ""
 article_author_image     : null
 article_author_biography : null
 article_author_profile   : "http://exame.abril.com.br/autor/wpestadao/"

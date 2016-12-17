@@ -4,10 +4,10 @@ site_url                 : "http://ziggi.uol.com.br/"
 site_locale              : "pt_BR"
 article_slug             : "vk-com-messenger"
 article_title            : "Vk.com Messenger"
-article_image            : "http://static.ziggi.uol.com.br/imagens_programas/icone_f258f1daa4c7f6a292542edd7b552396_vk_com_messenger.jpg"
-article_url              : "http://ziggi.uol.com.br/downloads/vk-com-messenger/android"
+article_image            : "http://static.ziggi.uol.com.br/imagens_programas/icone_35853.gif"
+article_url              : "http://ziggi.uol.com.br/downloads/nautilus-flickr-uploader/linux"
 article_published_at     : null
-article_description      : "Vk.com Messenger download Android - Mantenha conversas com seus amigos pelo VK.com Messenger para Android..."
+article_description      : "Nautilus Flickr Uploader download Linux - Uma interface gráfica para enviar imagens para o Flickr a partir do Nautilus."
 article_author_name      : "Virgilio Mastrangelo"
 article_author_image     : null
 article_author_biography : null
@@ -20,4 +20,4 @@ permalink                : "/:categories/vk-com-messenger/"
 layout                   : post
 ---
 
-Vk.com Messenger download Android - Mantenha conversas com seus amigos pelo VK.com Messenger para Android...
+Nautilus Flickr Uploader download Linux - Uma interface gráfica para enviar imagens para o Flickr a partir do Nautilus.
