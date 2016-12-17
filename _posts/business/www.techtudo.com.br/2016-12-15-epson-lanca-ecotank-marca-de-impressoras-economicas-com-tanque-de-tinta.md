@@ -1,0 +1,23 @@
+---
+site_title               : "TecTudo"
+site_url                 : "http://www.techtudo.com.br"
+site_locale              : "pt_BR"
+article_slug             : "epson-lanca-ecotank-marca-de-impressoras-economicas-com-tanque-de-tinta"
+article_title            : "Epson lança Ecotank, marca de impressoras econômicas com tanque de tinta"
+article_image            : null
+article_url              : "http://www.techtudo.com.br/noticias/noticia/2014/08/epson-lanca-ecotank-marca-de-impressoras-economicas-com-tanque-de-tinta.html"
+article_published_at     : null
+article_description      : "A Epson acaba de lançar a Ecotank, marca global de impressoras com tanque de tinta. Econômica, a linha comporta grande quantidade e de alta qualidade. De acordo com a fabricante, cada garrafa pode imprimir até 4 mil páginas em preto..."
+article_author_name      : "Raquel Freire"
+article_author_image     : "http://s2.glbimg.com/qyC9QMC0MZfomnXiaVcox1P-hZ8=/30x30/s2.glbimg.com/SWDvw4bRbjZPezc8h_uvjHqioA8=/0x0:140x140/75x75/s.glbimg.com/po/tt2/f/original/2013/01/24/raquel-freire.jpg"
+article_author_biography : null
+article_author_profile   : "http://www.techtudo.com.br/colaborador/raquel-freire.html"
+article_author_facebook  : null
+article_author_twitter   : null
+category                 : ['business']
+tags                     : ['TecTudo']
+permalink                : "/:categories/epson-lanca-ecotank-marca-de-impressoras-economicas-com-tanque-de-tinta/"
+layout                   : post
+---
+
+A Epson acaba de lançar a Ecotank, marca global de impressoras com tanque de tinta. Econômica, a linha comporta grande quantidade e de alta qualidade. De acordo com a fabricante, cada garrafa pode imprimir até 4 mil páginas em preto...
