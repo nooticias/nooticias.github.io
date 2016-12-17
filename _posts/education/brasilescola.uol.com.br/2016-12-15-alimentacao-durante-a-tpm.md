@@ -2,12 +2,12 @@
 site_title               : "Brasil Escola"
 site_url                 : "http://brasilescola.uol.com.br"
 site_locale              : "pt_BR"
-article_slug             : "tecido-epitelial"
-article_title            : "Tecido Epitelial"
+article_slug             : "alimentacao-durante-a-tpm"
+article_title            : "Alimentação Durante a TPM"
 article_image            : null
-article_url              : "http://brasilescola.uol.com.br/doencas/diabetes-tipo-2.htm"
+article_url              : "http://brasilescola.uol.com.br/saude/alimentacao-durantetpm.htm"
 article_published_at     : null
-article_description      : "Clique aqui e saiba quais são as causas, sintomas e tratamento do diabetes tipo 2."
+article_description      : "Alimentos bons para o organismo durante a TPM."
 article_author_name      : null
 article_author_image     : null
 article_author_biography : null
@@ -16,8 +16,8 @@ article_author_facebook  : null
 article_author_twitter   : null
 category                 : ['education']
 tags                     : ['Brasil Escola']
-permalink                : "/:categories/tecido-epitelial/"
+permalink                : "/:categories/alimentacao-durante-a-tpm/"
 layout                   : post
 ---
 
-Clique aqui e saiba quais são as causas, sintomas e tratamento do diabetes tipo 2.
+Alimentos bons para o organismo durante a TPM.
