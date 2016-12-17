@@ -1,6 +1,6 @@
 # Nootícias
 
-This project was migrated from PHP Symfony2 to Jekyll 3.2.
+This project was migrated from PHP Symfony2 to Jekyll 3.3.
 
 To install this project you will need meet the requirements of this tool. To see more details you can see the documentation of Jekyll.
 
