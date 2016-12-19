@@ -5,9 +5,9 @@ site_locale              : "pt_BR"
 article_slug             : "24-de-maio-dia-do-vestibulando"
 article_title            : "24 de maio - Dia do Vestibulando"
 article_image            : null
-article_url              : "http://brasilescola.uol.com.br/datas-comemorativas/dia-vestibulando.htm"
+article_url              : "http://brasilescola.uol.com.br/drogas/cigarro.htm"
 article_published_at     : null
-article_description      : "Em 24 de maio é celebrado o Dia do Vestibulando, estudante que convive com a pressão de escolher o curso e a profissão do seu futuro."
+article_description      : "Cigarro: maior problema de saúde pública mundial."
 article_author_name      : null
 article_author_image     : null
 article_author_biography : null
@@ -20,4 +20,4 @@ permalink                : "/:categories/24-de-maio-dia-do-vestibulando/"
 layout                   : post
 ---
 
-Em 24 de maio é celebrado o Dia do Vestibulando, estudante que convive com a pressão de escolher o curso e a profissão do seu futuro.
+Cigarro: maior problema de saúde pública mundial.
