@@ -1,0 +1,22 @@
+---
+slug          : "opera-linux"
+title         : "Opera Linux"
+image         : "http://static.ziggi.uol.com.br/imagens_programas/icone_4d8149f6e492af12976a10a93581a8e9_internet_explorer.jpg"
+source        : "http://ziggi.uol.com.br/downloads/internet-explorer"
+description   : "Internet Explorer download Windows - Aproveite todos os recursos do navegador oficial do Windows 8.1..."
+categories    : ['downloads']
+tags          : ['Zigg Downloads']
+site          :
+    title     : "Zigg Downloads"
+    url       : "http://ziggi.uol.com.br/"
+    locale    : "pt_BR"
+author        :
+    name      : "Opera Software"
+    image     : null
+    biography : null
+    profile   : null
+    facebook  : null
+    twitter   : null
+---
+
+Internet Explorer download Windows - Aproveite todos os recursos do navegador oficial do Windows 8.1...

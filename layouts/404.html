@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <head>
+        {{ partial "head-favicon.html" . }}
+        {{ partial "head-support-ie.html" . }}
+        {{ partial "head-meta.html" . }}
+        {{ partial "head-assets.html" . }}
+    </head>
+    <body role="document">
+        {{ partial "navbar.html" . }}
+        <div class="container content" role="main">
+            {{ partial "header.html" . }}
+            
+            <div class="row">
+                {{ partial "sidebar.html" . }}
+                <section class="col-xs-12 col-sm-9">
+                    <h1 class="error404">Página não encontrada <small>(404 Not Found)</small></h1>
+                    <header>
+                        <h1>Últimos Posts</h1>
+                        <small>Veja abaixo os últimos posts adicionados ao portal.</small>
+                    </header>
+                    <div class="row posts">
+                        {{ range $index, $post := (.Paginate ( first 9 .Data.Pages.ByTitle )).Pages }}
+                            {{ partial "post-card.html" (dict "LoopIndex" $index "Post" $post) }}
+                        {{ end }}
+                    </div>
+                </section>
+            </div>
+            <div class="row hidden-xs hidden-sm">
+                <section class="col-md-offset-3 col-md-9">
+                    <div class="banner banner-middle">
+                        {{ partial "google-adsense-728x90.html" . }}
+                    </div>
+                </section>
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+    </body>
+</html>

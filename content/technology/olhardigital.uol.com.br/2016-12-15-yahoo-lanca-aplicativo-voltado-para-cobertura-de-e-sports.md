@@ -1,0 +1,23 @@
+---
+slug          : "yahoo-lanca-aplicativo-voltado-para-cobertura-de-e-sports"
+title         : "Yahoo lança aplicativo voltado para cobertura de e-sports"
+image         : "http://img1.olhardigital.uol.com.br/uploads/acervo_imagens/2014/04/20140425203929_660_420.jpg"
+source        : "http://olhardigital.uol.com.br/pro/noticia/yahoo-lanca-app-mobile-voltado-para-cobertura-de-e-sports/57261"
+date          : "2016-04-15T11:04:00-03:00"
+description   : "O Yahoo resolveu investir ainda mais nos e-sports, criando desta vez um aplicativo mobile voltado exclusivamente para a cobertura desse tipo de atividade. O modelo inicial do app vai cobrir cinco títulos: Contra Strike, Global Offensive, Dota 2, Heroes of the Storm, League of Legends e Street Figter V. No app é possível inserir lembretes sobre o começo das partidas, ver estatísticas em tempo real e assistir a transmissões de partidas. O aplicativo está disponível apenas para Android, mas o Yahoo declarou que este é apenas o início e que uma versão para iOS não está muito distante. O Yahoo não está sozinho nessa, há outras empresas também investindo nos e-sports, como é o caso da ESPN, que criou um espaço dedicado à modalidade. Via Engadget.  ..."
+categories    : ['technology']
+tags          : ['Olhar Digital']
+site          :
+    title     : "Olhar Digital"
+    url       : "http://olhardigital.uol.com.br"
+    locale    : "pt_BR"
+author        :
+    name      : "Jeferson Goncalves"
+    image     : null
+    biography : null
+    profile   : null
+    facebook  : null
+    twitter   : null
+---
+
+O Yahoo resolveu investir ainda mais nos e-sports, criando desta vez um aplicativo mobile voltado exclusivamente para a cobertura desse tipo de atividade. O modelo inicial do app vai cobrir cinco títulos: Contra Strike, Global Offensive, Dota 2, Heroes of the Storm, League of Legends e Street Figter V. No app é possível inserir lembretes sobre o começo das partidas, ver estatísticas em tempo real e assistir a transmissões de partidas. O aplicativo está disponível apenas para Android, mas o Yahoo declarou que este é apenas o início e que uma versão para iOS não está muito distante. O Yahoo não está sozinho nessa, há outras empresas também investindo nos e-sports, como é o caso da ESPN, que criou um espaço dedicado à modalidade. Via Engadget.  ...

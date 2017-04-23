@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <head>
+        {{ partial "head-favicon.html" . }}
+        {{ partial "head-support-ie.html" . }}
+        {{ partial "head-meta.html" . }}
+        {{ partial "head-assets.html" . }}
+    </head>
+    <body role="document">
+        {{ partial "navbar.html" . }}
+        <div class="container content" role="main">
+            {{ partial "header.html" . }}
+            
+            <div class="row">
+                {{ partial "sidebar.html" . }}
+                
+                <section class="col-xs-12 col-sm-9">
+                    <section>
+                        <header>
+                            <h1>Nootícia <span>{{ .Title }}</span></h1>
+                            <small>Este post está presente na seguinte categoria: 
+                                {{ $baseURL := .Site.BaseURL }}
+                                {{ range $category := .Params.categories }}
+                                    <a href="{{ $baseURL }}categories/{{ $category }}">{{ $category }}</a>
+                                {{ end }}
+                            </small>
+                        </header>
+                        <div class="post-content">
+                            <p>{{ .Content }}</p>
+                        </div>
+                        <div class="hidden-xs hidden-sm">
+                            {{ partial "google-adsense-728x90.html" . }}
+                        </div>
+                        <div class="content-link">
+                            <a href="{{ .Params.source }}" class="btn btn-default" rel="nofollow" target="_blank" data-ga-label="Acessar este conteúdo">Acessar este conteúdo</a>
+                            <div class="share">
+                                <span class="share-label">Compartilhar no</span>
+
+                                <a data-ga-label="Compartilhar conteúdo no Facebook" href="http://www.facebook.com/sharer.php?u={{ .Permalink }}&t={{ .Title }}" class="btn btn-default"><span class="custom-icon custom-icon-white custom-icon-social-facebook">Facebook</span></a>
+                                <a data-ga-label="Compartilhar conteúdo no Twitter" href="http://twitter.com/share?text={{ .Title }}&url={{ .Permalink }}&via=CekurteSistemas" class="btn btn-default"><span class="custom-icon custom-icon-white custom-icon-social-twitter">Twitter</span></a>
+                                <a data-ga-label="Compartilhar conteúdo no Google+" href="https://plusone.google.com/_/+1/confirm?hl=pt-BR&url={{ .Permalink }}" class="btn btn-default"><span class="custom-icon custom-icon-white custom-icon-social-googleplus">Google+</span></a>
+                                <a data-ga-label="Compartilhar conteúdo no LinkedIn" href="http://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}&summary=&source={{ .Site.BaseURL }}" class="btn btn-default"><span class="custom-icon custom-icon-white custom-icon-social-linkedin">LinkedIn</span></a>
+                            </div>
+                        </div>
+                        <div class="content-info">
+                            <p>Conteúdo sincronizado em <strong>{{ .Date.Format "Monday, Jan 2, 2006" }}</strong>, publicado originalmente por {{ .Params.site.title }}.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <header>
+                            <h1>Posts Relacionados</h1>
+                            <small>Veja abaixo posts relacionados ao conteúdo que você está visualizando.</small>
+                        </header>
+                        <div class="row posts related_posts">
+                            {{ $shuffledPosts := shuffle .Site.Pages }}
+                            {{ range $index, $post := first 9 $shuffledPosts }}
+                                {{ partial "post-card.html" (dict "LoopIndex" $index "Post" $post) }}
+                            {{ end }}
+                        </div>
+                    </section>
+                    <div class="row posts">
+                        <div class="col-xs-12 col-sm-12 col-md-9">
+                            <section>
+                                <header>
+                                    <h1>Comentários</h1>
+                                    <small>Veja abaixo os comentários para este conteúdo. Gostaríamos que você comentasse.</small>
+                                </header>
+                                <div id="disqus_thread"></div>
+                                <script type="text/javascript">
+                                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                                    var disqus_shortname = 'nooticias'; // required: replace example with your forum shortname
+
+                                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                                    (function() {
+                                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                    })();
+                                </script>
+                                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            </section>
+                            <div class="banner banner-middle hidden-xs">
+                                {{ partial "google-adsense-468x60.html" . }}
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-3">
+                            <aside>
+                                <section>
+                                    <header>
+                                        <h1>Veja Também</h1>
+                                        <small>Veja abaixo outros conteúdos relacionados com o conteúdo atual que podem ser do seu interesse.</small>
+                                    </header>
+                                    {{ partial "posts-list.html" . }}
+                                </section>
+                            </aside>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="row hidden-xs hidden-sm">
+                <section class="col-md-offset-3 col-md-9">
+                    <div class="banner banner-middle">
+                        {{ partial "google-adsense-728x90.html" . }}
+                    </div>
+                </section>
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+    </body>
+</html>
+
+
+

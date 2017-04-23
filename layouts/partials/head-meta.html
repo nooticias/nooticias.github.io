@@ -1,0 +1,31 @@
+<!-- BEGIN meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- END meta -->
+
+<!-- BEGIN seo -->
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@CekurteSistemas"/>
+<meta name="twitter:domain" content="Nootícias"/>
+<meta name="twitter:creator" content="@CekurteSistemas"/>
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:site_name" content="Nootícias" />
+
+{{ if .IsHome }}
+<title>{{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Site.Title }}" />
+<meta property="og:url" content="{{ .Site.BaseURL }}" />
+<meta name="description" content="O Nootícias surgiu não só para agregar conteúdos dos maiores portais brasileiros, mas para disponibilizar a você o conhecimento desejado em um único local."/>
+<meta property="og:description" content="O Nootícias surgiu não só para agregar conteúdos dos maiores portais brasileiros, mas para disponibilizar a você o conhecimento desejado em um único local." />
+<link rel="canonical" href="{{ .Site.BaseURL }}" />
+{{ else }}
+<title>{{ .Title }}</title>
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta name="description" content="{{ .Description }}"/>
+<meta property="og:description" content="{{ .Description }}" />
+<link rel="canonical" href="{{ .Permalink }}" />
+{{ end }} 
+
+<meta property="og:type" content="website" />

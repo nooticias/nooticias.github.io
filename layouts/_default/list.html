@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <head>
+        {{ partial "head-favicon.html" . }}
+        {{ partial "head-support-ie.html" . }}
+        {{ partial "head-meta.html" . }}
+        {{ partial "head-assets.html" . }}
+    </head>
+    <body role="document">
+        {{ partial "navbar.html" . }}
+        <div class="container content" role="main">
+            {{ $paginator := .Paginator }}
+            
+            <div class="row">
+                {{ partial "sidebar.html" . }}
+                <section class="col-xs-12 col-sm-9">
+                    <header>
+                        <h1>Listagem de <span>Posts</span> do Blog <small class="page_number">(Página {{ $paginator.PageNumber }} de {{ $paginator.TotalPages }})</small></h1>
+                        <small>Veja abaixo os <strong>últimos</strong> posts que foram sincronizados.</small>
+                    </header>
+                    <div class="row posts">
+                        {{ range $index, $post := $paginator.Pages }}
+                            {{ partial "post-card.html" (dict "LoopIndex" $index "Post" $post) }}
+                        {{ end }}
+                        <div class="col-xs-12">
+                            <nav>
+                                <div class="pull-right">
+                                    {{ partial "posts-pagination.html" . }}
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+    </body>
+</html>

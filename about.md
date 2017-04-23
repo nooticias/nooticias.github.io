@@ -1,0 +1,4 @@
+---
+slug          : "about"
+title         : "About"
+---

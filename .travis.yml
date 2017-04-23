@@ -1,40 +1,13 @@
-language: ruby
-rvm:
-  - 2.3.1
-
-sudo: false
-
-cache:
-  bundler: true
-  directories:
-    - node_modules
-    - bower_components
-
-before_install:
-  - gem install jekyll
-  - gem install bundler
-
-install:
-  - bundle install
-
+language: go
+install: go get -v github.com/spf13/hugo
 before_script:
-  - npm install -g grunt-cli
-  - npm install -g bower
-  - npm install
-  - bower install
-  - bundle install
-  - git clone -b master https://github.com/nooticias/nooticias.github.io.git _site/
-  - cp _site/.jekyll-metadata .
-
+  - git clone -b master https://github.com/nooticias/nooticias.github.io.git public/
 script:
-  - travis_wait 1440 grunt production
-
+  - travis_wait 1440 hugo --baseURL https://www.nooticias.com.br/
 after_script:
   - git config --global user.name "${GIT_DISPLAYNAME}"
   - git config --global user.email "${GIT_EMAIL}"
-  - cd _site/
-  - mv ../.jekyll-metadata .
+  - cd public/
   - git add . --all
-  - git reset HEAD *.log
   - git commit --amend --message "${GIT_COMMIT_MESSAGE}"
   - git push --force --quiet "https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/nooticias/nooticias.github.io.git" master

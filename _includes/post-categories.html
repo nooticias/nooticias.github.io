@@ -1,4 +1,0 @@
-{% for category in page.categories %}
-    {% assign slug = category[0] %}
-    <a href="{{ slug | prepend: site.url }}">{{ site.data.categories[slug].title }} ({{ category[1].size }})</a>
-{% endfor %}

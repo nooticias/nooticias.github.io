@@ -1,0 +1,21 @@
+<div class="col-xs-12 col-sm-6 col-lg-4">
+    {{ if or (eq .LoopIndex 0) (eq .LoopIndex 3) (eq .LoopIndex 6) (eq .LoopIndex 9) (eq .LoopIndex 12) (eq .LoopIndex 15) (eq .LoopIndex 18) }}
+    <article class="orange">
+    {{ else if or (eq .LoopIndex 1) (eq .LoopIndex 4) (eq .LoopIndex 7)  (eq .LoopIndex 10) (eq .LoopIndex 13) (eq .LoopIndex 16) (eq .LoopIndex 19) }}
+    <article class="white">
+    {{ else }}
+    <article class="gray">
+    {{ end }}
+        <header>
+            <h1>{{ .Post.Title }}</h1>
+            {{ if .Post.Description }}
+                <div class="post-content">
+                    <small>{{ .Post.Description }}</small>
+                </div>
+            {{ end }}
+        </header>
+        <div class="text-center">
+            <a class="custom-button" href="{{ .Post.Permalink }}">Visualizar Conteúdo</a>
+        </div>
+    </article>
+</div>

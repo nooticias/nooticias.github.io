@@ -1,0 +1,23 @@
+---
+slug          : "pedofilo-aciona-google-pelo-direito-de-ser-esquecido-nas-buscas"
+title         : "Pedófilo aciona Google pelo direito de ser esquecido nas buscas"
+image         : "http://img1.olhardigital.uol.com.br/uploads/acervo_imagens/2014/05/20140515145340_660_420.jpg"
+source        : "http://olhardigital.uol.com.br/fique_seguro/noticia/pedofilo-aciona-google-pelo-direito-de-ser-esquecido-nas-buscas/42017"
+date          : "2014-05-15T14:50:00-03:00"
+description   : "Recentemente, a Corte Europeia decidiu que o Google deveria oferecer o 'direito ao esquecimento' a um espanhol. Com este caso como precedente, mais pessoas entraram com pedidos de remoção de notícias que citassem seus nomes, entre eles um pedófilo condenado. Preso por posse de imagens de abuso infantil, ele solicita que as notícias referentes ao seu caso deixem de ser apresentadas nas buscas por seu nome. Outros casos incluem um ex-político, querendo se reeleger, que pediu que fossem removidas notícias sobre seu comportamento durante o mandato, e um médico, solicitando a exclusão de análises negativas publicadas pelos seus pacientes. Tudo começou quando um espanhol disse à Corte Europeia de Justica que o Google violava sua privacidade quando, ao buscar seu próprio nome, encontrava uma nota sobre de leilão forçado de sua casa, por causa de dívidas. Seu caso foi avaliado e o Google foi obrigado a remover esta nota dos resultados da busca, por ordem judicial. Assim, a justiça abriu um precedente para estas exigências. O Google ainda não se pronunciou sobre os casos, desde o primeiro parecer da corte, exceto por ter considerado o resultado 'desapontador'. Viviane Reding, comissária da União Europeia, disse que o caso foi uma vitória para 'a proteção de dados pessoais dos europeus', mas outros não veem o caso com bons olhos. O fundador da Wikipedia, Jimmy Wales, é um dos que se opõem à ideia, assim como defensores da liberdade de expressão do Index of Censorship, site que publica notícias sobre censura ao redor do mundo. Para eles,  a medida deveria 'causar um frio na espinha de todos na UE que acreditam na livre expressão e liberdade de informação'. A dúvida que fica é: caso essa moda pegue, como será feita a remoção de tanto conteúdo? Quantos julgamentos serão necessários para que o conteúdo seja removido manualmente? Problemas logísticos podem se tornar preocupantes, com o aumento de pedido de remoções individuais. Via: BBC..."
+categories    : ['technology']
+tags          : ['Olhar Digital']
+site          :
+    title     : "Olhar Digital"
+    url       : "http://olhardigital.uol.com.br"
+    locale    : "pt_BR"
+author        :
+    name      : "Redação Olhar Digital"
+    image     : null
+    biography : null
+    profile   : null
+    facebook  : null
+    twitter   : null
+---
+
+Recentemente, a Corte Europeia decidiu que o Google deveria oferecer o "direito ao esquecimento" a um espanhol. Com este caso como precedente, mais pessoas entraram com pedidos de remoção de notícias que citassem seus nomes, entre eles um pedófilo condenado. Preso por posse de imagens de abuso infantil, ele solicita que as notícias referentes ao seu caso deixem de ser apresentadas nas buscas por seu nome. Outros casos incluem um ex-político, querendo se reeleger, que pediu que fossem removidas notícias sobre seu comportamento durante o mandato, e um médico, solicitando a exclusão de análises negativas publicadas pelos seus pacientes. Tudo começou quando um espanhol disse à Corte Europeia de Justica que o Google violava sua privacidade quando, ao buscar seu próprio nome, encontrava uma nota sobre de leilão forçado de sua casa, por causa de dívidas. Seu caso foi avaliado e o Google foi obrigado a remover esta nota dos resultados da busca, por ordem judicial. Assim, a justiça abriu um precedente para estas exigências. O Google ainda não se pronunciou sobre os casos, desde o primeiro parecer da corte, exceto por ter considerado o resultado "desapontador". Viviane Reding, comissária da União Europeia, disse que o caso foi uma vitória para "a proteção de dados pessoais dos europeus", mas outros não veem o caso com bons olhos. O fundador da Wikipedia, Jimmy Wales, é um dos que se opõem à ideia, assim como defensores da liberdade de expressão do Index of Censorship, site que publica notícias sobre censura ao redor do mundo. Para eles,  a medida deveria "causar um frio na espinha de todos na UE que acreditam na livre expressão e liberdade de informação". A dúvida que fica é: caso essa moda pegue, como será feita a remoção de tanto conteúdo? Quantos julgamentos serão necessários para que o conteúdo seja removido manualmente? Problemas logísticos podem se tornar preocupantes, com o aumento de pedido de remoções individuais. Via: BBC...

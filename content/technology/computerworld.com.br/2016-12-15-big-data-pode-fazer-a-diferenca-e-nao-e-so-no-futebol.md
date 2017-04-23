@@ -1,0 +1,23 @@
+---
+slug          : "big-data-pode-fazer-a-diferenca-e-nao-e-so-no-futebol"
+title         : "Big data pode fazer a diferença, e não é só no futebol"
+image         : "http://computerworld.com.br/sites/beta.computerworld.com.br/files/news_articles/superbowl.jpg"
+source        : "http://computerworld.com.br/big-data-pode-fazer-diferenca-e-nao-e-so-no-futebol"
+date          : "2016-12-15T11:35:00-02:00"
+description   : "O que poucos talvez percebam, no Brasil, é que o futebol não é o único esporte que pode usufruir desse versátil '12º jogador' em seus times..."
+categories    : ['technology']
+tags          : ['Computer World']
+site          :
+    title     : "Computer World"
+    url       : "http://computerworld.com.br"
+    locale    : "pt_BR"
+author        :
+    name      : "Reinaldo Yocida"
+    image     : null
+    biography : null
+    profile   : "http://computerworld.com.br/autor/reinaldo-yocida"
+    facebook  : null
+    twitter   : null
+---
+
+O que poucos talvez percebam, no Brasil, é que o futebol não é o único esporte que pode usufruir desse versátil "12º jogador" em seus times...

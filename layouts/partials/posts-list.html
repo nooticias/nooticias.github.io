@@ -1,0 +1,10 @@
+<div id="related-posts">
+    <ul class="list-unstyled">
+        {{ $shuffledPosts := shuffle .Site.Pages }}
+        {{ range first 10 $shuffledPosts }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+        {{ end }}
+    </ul>
+</div> 

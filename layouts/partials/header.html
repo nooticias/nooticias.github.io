@@ -1,0 +1,32 @@
+<div class="row banner banner-top hidden-xs">
+    <div class="col-xs-12">
+        <div class="center-block text-center">
+            {{ partial "google-adsense-728x90.html" . }}
+        </div>
+    </div>
+</div>
+<div class="row">
+    <section class="col-xs-12 col-sm-12 col-md-8">
+        <header>
+            <h1>O que você Procura?</h1>
+            <small>Veja abaixo as categorias presentes em nosso website.</small>
+        </header>
+        <div>
+            {{ $categories := .Site.Taxonomies.categories }}
+            {{ $data       := .Site.Data.categories }}
+
+            {{ range $category, $map := $categories }}
+                {{ range $key, $current := $data }}
+                    {{ if eq $key $category }}
+                        <a class="custom-button" href="{{ .Site.BaseURL }}/categories/{{ $category }}">{{ $current.title }} ({{ $map.Count }})</a>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
+    <section class="col-md-4 hidden-xs hidden-sm">
+        <div class="pull-right">
+            {{ partial "google-adsense-300x250.html" . }}
+        </div>
+    </section>
+</div>
